@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Harvest Box</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-girl-border">
+            <picture>
+              <source
+                srcset="
+                  ./top_hero/1girlnew.png   1x,
+                  ./top_hero/1girlnew2x.png 2x
+                "
+                media="(max-width: 767px)"
+                type="image/png"
+              />
+              <source
+                srcset="./top_hero/girlnew.jpg 1x, ./top_hero/girl2xnew.jpg 2x"
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+
+              <img src="./top_hero/girlnew.jpg" alt="girl" class="hero-girl" />
+            </picture>
+          </div>
+          <div class="hero-title-box">
+            <h1 class="hero-title">
+              fresh harvest box<br />
+              is your one-stop place for a delicious fruit basket
+            </h1>
+          </div>
+          <picture>
+            <source
+              srcset="
+                ./banana_berry/imagebanana.png 1x,
+                ./banana_berry/banana@2x.png   2x
+              "
+              media="(max-width: 767px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./banana_berry/banana_tab.png    1x,
+                ./banana_berry/banana_tab@2x.png 2x
+              "
+              media="(min-width: 768px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./banana_berry/banana_desk.png    1x,
+                ./banana_berry/banana_desk@2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              type="image/png"
+            />
+            <img
+              src="./banana_berry/banana_desk.png"
+              alt="banana"
+              class="hero-banana"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ./banana_berry/imagestrawberry.png    1x,
+                ./banana_berry/imagestrawberry@2x.png 2x
+              "
+              media="(max-width: 767px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./banana_berry/strawberry_tab.png    1x,
+                ./banana_berry/strawberry_tab@2x.png 2x
+              "
+              media="(min-width: 768px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./banana_berry/strawberry_desk.png    1x,
+                ./banana_berry/strawberry_desk@2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              type="image/png"
+            />
+            <img
+              class="hero-berry"
+              src="./banana_berry/strawberry_desk.png"
+              alt="banana"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
